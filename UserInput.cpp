@@ -1,3 +1,5 @@
+//Program to take the input from the user
+
 #include<iostream>
 using namespace std;
 int main() {
