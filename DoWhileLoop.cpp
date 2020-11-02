@@ -1,6 +1,11 @@
+//Program to demonstrate Do While Loop
+
 #include<iostream>
+
 using namespace std;
+
 int main() {
+    
     int i=0;
     do {
         cout<<"Spider-Man\n";
