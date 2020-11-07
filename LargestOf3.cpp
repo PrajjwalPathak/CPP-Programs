@@ -17,7 +17,12 @@ int main() {
         }
     }
     else {
-        cout<<b<<" is the largest number";
+        if(b>c) {
+            cout<<b<<" is the largest number";
+        }
+        else {
+            cout<<c<<" is the largest number";
+        }
     }
     return 0;
 }
