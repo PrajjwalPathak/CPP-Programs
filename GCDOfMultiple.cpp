@@ -24,6 +24,7 @@ int main() {
     cout<<"Enter n: ";
     cin>>n;
     int a[n];
+    cout<<"Enter n numbers to find gcd: ";
     for(i=0;i<n;i++) {
         cin>>a[i];
     }
