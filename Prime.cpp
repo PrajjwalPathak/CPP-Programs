@@ -8,7 +8,10 @@ int main() {
     int i,n,flag=0;
     cout<<"Enter a number: ";
     cin>>n;
-    if(n==0 || n==1) {
+    if(n<0) {
+        cout<<"Invalid - Write numbers greater than 0";
+    }
+    else if(n==0 || n==1) {
         cout<<"Not a Prime";
     }
     else if(n==2 || n==3) {
