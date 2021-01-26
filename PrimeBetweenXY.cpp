@@ -33,7 +33,7 @@ void primeBetweenXY(int x, int y) {
 
 int main() {
     int x,y;
-    cout<<"Enter x and y to print prime numbers in bewteen them:\n";
+    cout<<"Enter x and y to print prime numbers in between them:\n";
     cin>>x>>y;
     primeBetweenXY(x, y);
     
